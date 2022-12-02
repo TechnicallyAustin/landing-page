@@ -8,3 +8,29 @@
     --quote-color: #E5E7EB;
     --quote-text: #1F2937;
 }
+
+* {
+    border: 1px solid black;
+    left: 0;
+    top: 0;
+}
+
+header {
+    background-color: var(--hero-footer-color);
+    color: var(--hero-text-color);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+
+}
+.logo {
+    color: var(--hero-logo-color);
+    display: flex;
+    align-items: center;
+}
+
+
+.hero {
+    background-color: var(--hero-footer-color);
+    color: var(--hero-text-color)
+}
