@@ -5,7 +5,7 @@
   --hero-logo-color: #f9faf8;
   --button-color: #3882f6;
   --info-header-color: #1f2937;
-  --quote-section-color: #E5E7EB;
+  --quote-section-color: #e5e7eb;
   --quote-text: #1f2937;
 }
 
@@ -105,58 +105,57 @@ button {
   align-content: center;
   height: 40vh;
   gap: 20px;
-  margin: auto 12vw
+  margin: auto 12vw;
 }
 
 .information-section-title {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  padding: 3%;
+  padding: 2%;
 }
 
 #info-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: auto 6vh;
 }
 
 #info-box img {
-    display: flex;
-    height: auto;
-    width: auto;
-    max-width: 200px;
-    border-radius: 10px;
+  display: flex;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  border-radius: 10px;
 }
 
 #info-box p {
-    text-align: center;
+  text-align: center;
 }
 
 .quote-section {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--quote-section-color);
-    height: 40vh;
-    align-content: center;
-
-
-
+  background-color: var(--quote-section-color);
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  
 }
 
-blockquote {
-    display: block;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    width: auto
-
+.quote-text blockquote {
+    margin: auto;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  width: 80vw;
 }
-.quote-section p {
-    text-align: right;
-
+.quote-text p {
+  text-align: right;
+  font-weight: 900;
+  margin: auto;
+  width: 80vw;
+  padding: 2vh 0;
 }
-
-
