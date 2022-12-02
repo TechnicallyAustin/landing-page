@@ -5,7 +5,7 @@
   --hero-logo-color: #f9faf8;
   --button-color: #3882f6;
   --info-header-color: #1f2937;
-  --quote-color: #e5e7eb;
+  --quote-section-color: #E5E7EB;
   --quote-text: #1f2937;
 }
 
@@ -103,8 +103,9 @@ button {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  height: 45vh;
+  height: 40vh;
   gap: 20px;
+  margin: auto 12vw
 }
 
 .information-section-title {
@@ -134,5 +135,28 @@ button {
     text-align: center;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--quote-section-color);
+    height: 40vh;
+    align-content: center;
+
+
+
+}
+
+blockquote {
+    display: block;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: auto
+
+}
+.quote-section p {
+    text-align: right;
+
+}
 
 
