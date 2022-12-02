@@ -43,7 +43,8 @@ header {
 .header-links a:hover{
     text-decoration: none;
     display: flex;
-    color: var(--hero-secondary-color)
+    color: var(--hero-secondary-color);
+    font-size: 18px;
 
 }
 
@@ -52,6 +53,7 @@ header {
     color: var(--hero-logo-color);
     display: flex;
     align-items: center;
+    font-size: 24px;
 }
 
 
@@ -64,15 +66,27 @@ header {
     align-items: center;
     gap: 16px;
 }
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex-basis: 1 0 0;
+    margin-left: 6vw;
+    margin-top: -5vh;
+}
 
 .hero-text h1 {
-    margin-left: 6vw;
     font-size: 48px;
     font-weight: 900
 }
 
+.hero-text p {
+    font-size: 18px;
+}
+
 .hero-text p, .hero-text button {
-    margin-left: 6vw;
+
 }
 
 
@@ -80,7 +94,6 @@ header {
     height: auto;
     width: 500px;
     display: flex;
-
 }
 
 .hero-image {
@@ -90,5 +103,7 @@ header {
 button{
     background-color: var(--button-color);
     color: var(--hero-text-color);
-    border-radius: 4px;
+    border-radius: 10px;
+    height: 4vh;
+    width: 8vw;
 }
