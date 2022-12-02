@@ -53,5 +53,18 @@ header {
 
 .hero {
     background-color: var(--hero-footer-color);
-    color: var(--hero-text-color)
+    color: var(--hero-text-color);
+    height: 40vh;
+    display: flex;
+    align-content: center;
+}
+
+.hero-text {
+
+}
+
+.hero-image img {
+    height: auto;
+    width: 400px;
+    display: flex;
 }
