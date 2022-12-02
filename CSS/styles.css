@@ -159,3 +159,30 @@ button {
   width: 80vw;
   padding: 2vh 0;
 }
+
+.action-section {
+    height: 30vh;
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-tag {
+    
+}
+.action-section-text{
+
+}
+
+
+
+
+.footer-info {
+    background-color: var(--hero-footer-color);
+    height: 10vh;
+    color: var(--hero-logo-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
