@@ -15,6 +15,10 @@
     top: 0;
 }
 
+body {
+    width: 100%
+}
+
 header {
     padding-left: 6vw;
     height: 6vh;
@@ -54,17 +58,37 @@ header {
 .hero {
     background-color: var(--hero-footer-color);
     color: var(--hero-text-color);
-    height: 40vh;
+    height: 55vh;
     display: flex;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
-.hero-text {
-
+.hero-text h1 {
+    margin-left: 6vw;
+    font-size: 48px;
+    font-weight: 900
 }
+
+.hero-text p, .hero-text button {
+    margin-left: 6vw;
+}
+
 
 .hero-image img {
     height: auto;
-    width: 400px;
+    width: 500px;
     display: flex;
+
+}
+
+.hero-image {
+    margin-right: 10vw;
+}
+
+button{
+    background-color: var(--button-color);
+    color: var(--hero-text-color);
+    border-radius: 4px;
 }
